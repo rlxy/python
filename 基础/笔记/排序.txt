@@ -1,0 +1,20 @@
+排序函数    sort()、 sortde()、 argsort()函数
+
+sort()和sortde()这两个是python的内建排序
+
+1、基础的序列升序排序直接调用sorted()方法即可
+	 ls = list([5, 2, 3, 1, 4])
+	 new_ls = sorted(ls)
+	或者使用ls.sort()即可，直接将ls改变
+	 print(new_ls)
+需要注意：sort()方法仅定义在list中，而sorted()方法对所有的可迭代序列都有效，并且针对任何的可迭代序列，sorted()都是返回一个list
+
+    sorted(iterable，cmp，key，reverse）
+2、使用cmp函数排序，cmp是带两个参数的比较函数
+
+
+
+
+
+
+
