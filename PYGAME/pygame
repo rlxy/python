@@ -1,0 +1,5 @@
+pygame的三大对象：
+    pygame.display      显示
+    pygame.time         时间
+    pygame.event        事件
+    pygame.draw         绘制
